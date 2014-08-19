@@ -2,6 +2,17 @@
 
 [bcryptjs](https://github.com/dcodeIO/bcrypt.js) wrapper for [co](https://github.com/visionmedia/co)
 
+## Usage
+
+```js
+var salt = yield bcrypt.genSalt(10)
+var hash = yield bcrypt.hash('B4c0/\/', salt)
+
+if (yield.compare('B4c0/\/', hash)) {
+  ...
+}
+```
+
 ## MIT License
 
 Copyright (c) 2014 Markus Ast

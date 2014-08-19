@@ -1,6 +1,6 @@
 {
-  "name": "co-bcrypt",
-  "version": "0.1.0",
+  "name": "co-bcryptjs",
+  "version": "0.2.0",
   "author": "Markus Ast <npm.m@rkusa.st>",
   "description": "bcryptjs wrapper for co",
   "keywords": [
@@ -14,14 +14,14 @@
     "co",
     "koa"
   ],
-  "homepage": "https://github.com/rkusa/co-bcrypt",
+  "homepage": "https://github.com/rkusa/co-bcryptjs",
   "dependencies": {
-    "bcryptjs": "^0.7.12"
+    "bcryptjs": "^2.0.2"
   },
-  "bugs": "https://github.com/rkusa/co-bcrypt/issues",
+  "bugs": "https://github.com/rkusa/co-bcryptjs/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/rkusa/co-bcrypt.git"
+    "url": "git://github.com/rkusa/co-bcryptjs.git"
   },
   "license": "MIT",
   "engines": {
